@@ -156,10 +156,10 @@ SHOW DATABASES;
    insert into test_tb values (123,123,0,0);
    ```
 
-   ![image-20200625101124101](mysql_img\zerofill)
+   ![image-20200625101124101](https://i.loli.net/2020/08/17/qYK2Mn6vEyrQJSo.png)
 
 3. `Unsigned`效果显示
-	![image-20200625101755223](mysql_img\unsigned)
+	![image-20200625101755223](https://i.loli.net/2020/08/17/BPjcDyUXWLO62mw.png)
 
 
 
@@ -174,7 +174,7 @@ SHOW DATABASES;
 
 2. 显示结果
 
-   ![image-20200625103206889](C:\Users\aochi.shu\Documents\Notes\mysql_img\varcharLength)
+   ![image-20200625103206889](https://i.loli.net/2020/08/17/mTIAnECWLS8Przy.png)
 
    只能设定长度小于2的字符串
 
@@ -330,7 +330,7 @@ create table if not exists `employee`(
 alter table `employee` add constraint `FK_depart_id` foreign key (`depart_id`) references `depart` (`depart_id`);
 ```
 
-![](mysql_img/外键.jpg)
+![外键](https://i.loli.net/2020/08/17/gzWnMwKukBh6Vvc.jpg)
 
 以上的操作都是物理外键，即数据库级别的外键， 不建议使用！
 
